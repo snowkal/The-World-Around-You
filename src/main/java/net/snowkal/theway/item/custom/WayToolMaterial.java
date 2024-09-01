@@ -6,11 +6,16 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
+import net.snowkal.theway.item.ModItems;
 
 import java.util.function.Supplier;
 
 public enum WayToolMaterial implements ToolMaterial {
-    COPPER(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 300, 3, 1, 9, () -> Ingredient.ofItems(Items.COPPER_INGOT));
+    COPPER(BlockTags.INCORRECT_FOR_IRON_TOOL, 300, 3, 1, 9, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    ROSE_GOLD(BlockTags.INCORRECT_FOR_IRON_TOOL, 550, 5, 1, 18, () -> Ingredient.ofItems(ModItems.ROSE_GOLD_INGOT)),
+    AMETHYST(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 650, 3, 1, 12, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+    OBSIDIAN(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 1250, 4, 1, 14, () -> Ingredient.ofItems(ModItems.OBSIDIAN_SHARD));
+
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

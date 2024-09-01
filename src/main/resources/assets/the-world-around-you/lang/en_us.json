@@ -1,5 +1,27 @@
 {
   "itemgroup.theway": "The World Around You",
 
-  "item.theway.copper_sword": "Copper Sword"
+  "item.theway.copper_sword": "Copper Sword",
+  "item.theway.copper_pickaxe": "Copper Pickaxe",
+  "item.theway.copper_axe": "Copper Axe",
+  "item.theway.copper_shovel": "Copper Shovel",
+  "item.theway.copper_hoe": "Copper Hoe",
+  "item.theway.rose_gold_sword": "Rose Gold Sword",
+  "item.theway.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.theway.rose_gold_axe": "Rose Gold Axe",
+  "item.theway.rose_gold_shovel": "Rose Gold Shovel",
+  "item.theway.rose_gold_hoe": "Rose Gold Hoe",
+  "item.theway.amethyst_sword": "Amethyst Sword",
+  "item.theway.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.theway.amethyst_axe": "Amethyst Axe",
+  "item.theway.amethyst_shovel": "Amethyst Shovel;",
+  "item.theway.amethyst_hoe": "Amethyst Hoe",
+  "item.theway.obsidian_sword": "Obsidian Sword",
+  "item.theway.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.theway.obsidian_axe": "Obsidian Axe",
+  "item.theway.obsidian_shovel": "Obsidian Shovel",
+  "item.theway.obsidian_hoe": "Obsidian Hoe",
+
+  "item.theway.rose_gold_ingot": "Rose Gold Ingot",
+  "item.theway.obsidian_shard": "Obsidian Shard"
 }
