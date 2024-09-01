@@ -1,17 +1,19 @@
 {
 	"schemaVersion": 1,
-	"id": "the-world-around-you",
+	"id": "theway",
 	"version": "${version}",
 	"name": "The World Around You",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "An expansion for everyone.",
 	"authors": [
-		"Me!"
+		"Snowkal",
+		"MrShuttle",
+		"CrimeToaster"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/snowkal",
+		"sources": "https://github.com/snowkal/The-World-Around-You"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/the-world-around-you/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +22,9 @@
 		],
 		"fabric-datagen": [
 			"net.snowkal.theway.TheWorldAroundYouDataGenerator"
+		],
+		"client": [
+			"net.snowkal.theway.TheWorldAroundYouClient"
 		]
 	},
 	"mixins": [
