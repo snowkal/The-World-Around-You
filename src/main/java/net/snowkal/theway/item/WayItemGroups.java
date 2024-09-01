@@ -12,7 +12,7 @@ import net.snowkal.theway.TheWorldAroundYou;
 public class WayItemGroups {
     public static final ItemGroup THE_WORLD_AROUND_YOU = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TheWorldAroundYou.MOD_ID, "the_world_around_you"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.COPPER_SWORD)).displayName(Text.translatable("itemgroup.theworldaroundyou"))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.COPPER_SWORD)).displayName(Text.translatable("itemgroup.theway"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.COPPER_SWORD);
                     }).build());
