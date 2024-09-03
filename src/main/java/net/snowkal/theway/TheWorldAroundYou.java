@@ -15,6 +15,7 @@ public class TheWorldAroundYou implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("snowkal was here <3 (the WAY initialized)");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		WayItemGroups.registerItemGroups();
