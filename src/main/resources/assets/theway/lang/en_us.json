@@ -29,5 +29,8 @@
   "item.theway.rose_gold_ingot": "Rose Gold Ingot",
   "item.theway.obsidian_shard": "Obsidian Shard",
 
-  "effect.theway.golden": "Golden"
+  "effect.theway.golden": "Golden",
+
+  "item.theway.ochre_disc": "Music Disc",
+  "jukebox_song.theway.ochre": "Ochre - moxizz"
 }

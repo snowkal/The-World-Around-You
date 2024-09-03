@@ -4,8 +4,10 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.snowkal.theway.TheWorldAroundYou;
 import net.snowkal.theway.item.custom.WayToolMaterial;
+import net.snowkal.theway.sound.WaySounds;
 
 public class ModItems {
     //resources
@@ -53,6 +55,9 @@ public class ModItems {
             .attributeModifiers(MiningToolItem.createAttributeModifiers(WayToolMaterial.OBSIDIAN, 1, -3.1f)))));
     public static final Item OBSIDIAN_HOE = registerItem("obsidian_hoe", new HoeItem(WayToolMaterial.OBSIDIAN, (new Item.Settings()
             .attributeModifiers(MiningToolItem.createAttributeModifiers(WayToolMaterial.OBSIDIAN, 1, -3.1f)))));
+
+    //discs
+    public static final Item OCHRE_DISC = registerItem("ochre_disc", new Item(new Item.Settings().jukeboxPlayable(WaySounds.OCHRE_SONG).maxCount(1).rarity(Rarity.RARE)));
 
 
     public static Item registerItem(String name, Item item) {

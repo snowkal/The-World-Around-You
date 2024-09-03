@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.snowkal.theway.block.ModBlocks;
 import net.snowkal.theway.item.WayItemGroups;
 import net.snowkal.theway.item.ModItems;
+import net.snowkal.theway.sound.WaySounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +18,6 @@ public class TheWorldAroundYou implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		WayItemGroups.registerItemGroups();
+		WaySounds.registerSounds();
 	}
 }

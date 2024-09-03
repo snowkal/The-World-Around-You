@@ -13,7 +13,7 @@ import net.snowkal.theway.block.ModBlocks;
 public class WayItemGroups {
     public static final ItemGroup THE_WORLD_AROUND_YOU = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TheWorldAroundYou.MOD_ID, "the_world_around_you"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.COPPER_SWORD)).displayName(Text.translatable("itemgroup.theway"))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MARIGOLD)).displayName(Text.translatable("itemgroup.theway"))
                     .entries((displayContext, entries) -> {
                       //blocks
                       entries.add(ModBlocks.OAK_HEART_PRESSURE_PLATE);
@@ -45,6 +45,9 @@ public class WayItemGroups {
                       //resources
                       entries.add(ModItems.ROSE_GOLD_INGOT);
                       entries.add(ModItems.OBSIDIAN_SHARD);
+
+                      //discs
+                        entries.add(ModItems.OCHRE_DISC);
                     }).build());
 
     public static void registerItemGroups() {}

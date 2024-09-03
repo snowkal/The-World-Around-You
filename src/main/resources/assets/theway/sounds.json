@@ -1,0 +1,10 @@
+{
+  "ochre": {
+    "sounds": [
+      {
+        "name": "theway:ochre",
+        "stream": true
+      }
+    ]
+  }
+}
