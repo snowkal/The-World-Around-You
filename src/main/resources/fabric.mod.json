@@ -14,7 +14,7 @@
 		"sources": "https://github.com/snowkal/The-World-Around-You"
 	},
 	"license": "MIT",
-	"icon": "assets/the-world-around-you/icon.png",
+	"icon": "assets/theway/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

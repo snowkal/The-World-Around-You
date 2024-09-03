@@ -2,6 +2,7 @@ package net.snowkal.theway;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.snowkal.theway.block.ModBlocks;
 import net.snowkal.theway.item.WayItemGroups;
 import net.snowkal.theway.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,7 @@ public class TheWorldAroundYou implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		WayItemGroups.registerItemGroups();
 	}
 }
