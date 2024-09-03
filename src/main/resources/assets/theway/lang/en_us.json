@@ -1,6 +1,10 @@
 {
   "itemgroup.theway": "The World Around You",
 
+  "block.theway.oak_heart_pressure_plate": "Oak Heart Pressure Plate",
+  "block.theway.marigold": "Marigold",
+  "block.theway.marigold_bush": "Marigold Bush",
+
   "item.theway.copper_sword": "Copper Sword",
   "item.theway.copper_pickaxe": "Copper Pickaxe",
   "item.theway.copper_axe": "Copper Axe",
@@ -23,5 +27,7 @@
   "item.theway.obsidian_hoe": "Obsidian Hoe",
 
   "item.theway.rose_gold_ingot": "Rose Gold Ingot",
-  "item.theway.obsidian_shard": "Obsidian Shard"
+  "item.theway.obsidian_shard": "Obsidian Shard",
+
+  "effect.theway.golden": "Golden"
 }

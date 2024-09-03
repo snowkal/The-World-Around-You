@@ -17,6 +17,8 @@ public class WayItemGroups {
                     .entries((displayContext, entries) -> {
                       //blocks
                       entries.add(ModBlocks.OAK_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.MARIGOLD);
+                      entries.add(ModBlocks.MARIGOLD_BUSH);
 
                       //tools
                       entries.add(ModItems.COPPER_SWORD);
