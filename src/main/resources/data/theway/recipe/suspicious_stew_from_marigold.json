@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "suspicious_stew",
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "theway:marigold"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "count": 1,
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "theway:golden",
+          "duration": 6000
+        }
+      ]
+    }
+  }
+}
