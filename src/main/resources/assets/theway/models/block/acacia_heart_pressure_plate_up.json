@@ -1,0 +1,6 @@
+{
+  "parent": "theway:block/heart_pressure_plate_up",
+  "textures": {
+    "texture": "minecraft:block/acacia_planks"
+  }
+}

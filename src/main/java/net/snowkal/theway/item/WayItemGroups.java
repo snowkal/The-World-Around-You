@@ -17,6 +17,13 @@ public class WayItemGroups {
                     .entries((displayContext, entries) -> {
                       //blocks
                       entries.add(ModBlocks.OAK_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.SPRUCE_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.BIRCH_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.JUNGLE_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.ACACIA_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.DARK_OAK_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.MANGROVE_HEART_PRESSURE_PLATE);
+                      entries.add(ModBlocks.CHERRY_HEART_PRESSURE_PLATE);
                       entries.add(ModBlocks.MARIGOLD);
                       entries.add(ModBlocks.MARIGOLD_BUSH);
 
